@@ -3,4 +3,4 @@
 2. En la siguiente imagen se ve como en la pantalla de la calcudora se presentan los numeros que se van ingesando conjuntamente con su operación  y mas abajo su resultado ![image](https://user-images.githubusercontent.com/66123679/128272490-2faf0cc6-d2c1-4297-bc2c-b7fad77a76ef.png)
 3. La calculadora tiene botones especiales como: C, Del y parentesis que permiten realizar operaciones mas complejas o regresar la calculadora a su valor inicial
  ![image](https://user-images.githubusercontent.com/66123679/128272446-6318b43b-ce41-4e6e-acc4-151bb45840f8.png)
-
+ 4. En la parte de codificación se separaron ciertos elementos como la definicion de los botones y la declaración de su valor y para su funcionamiento en cuanto a las operaciones se utilizaron hooks de react que permite ir definiendo las diversas funciones para las operaciones.
