@@ -8,13 +8,13 @@ import { buttons } from "../utils/Buttons";
 
 const Home:React.FC=() => {
 
-	const [ showTitle, setShowTitle ] = useState("_______");
+	const [ showTitle, setShowTitle ] = useState("------");
 	const [ sum, setSum ] = useState("0");
 	const [ sumHistory, setSumHistory ] = useState("");
 
 	const handleClick = (e:any, operator:any) => {
 
-		const tempSumHistory = sumHistory.replace("Ionic Calculator", "");
+		const tempSumHistory = sumHistory.replace("Calculator", "");
 
 		if (operator === "=") {
 
@@ -43,20 +43,17 @@ const Home:React.FC=() => {
 	}, [sumHistory]);
 
 	const calculate = () => {
-
 		try {
 			// eslint-disable-next-line no-eval
 			setSum(eval(sumHistory).length > 5 ? eval(sumHistory).toFixed(4) : eval(sumHistory));
-			setShowTitle("Ionic Calculator");
+			setShowTitle("Calculator");
 		} catch (e) {
-
 
 		}
 	}
 
 	const reset = () => {
-
-		setSumHistory("Ionic Calculator");
+		setSumHistory("");
 		setSum("0");
 		setShowTitle("_______");
 	}
