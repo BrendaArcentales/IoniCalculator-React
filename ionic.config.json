@@ -1,0 +1,7 @@
+{
+  "name": "IoniCalculator-React",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
